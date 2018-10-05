@@ -83,30 +83,7 @@
             border-radius: 0 42.5px 42.5px 0;
             background-color: #ffffff;
 
-            .form-details {
-                padding-top: 100px;
-                padding-left: 40px;
-            }
-
-            .row:after {
-                content: "";
-                display: table;
-                clear: both;
-            }
-
-            .desc-col {
-                float: left;
-                width: 25%;
-                margin-top: 6px;
-            }
-
-            .field-col {
-                float: left;
-                width: 75%;
-                margin-top: 6px;
-            }
-
-            .label-desc {
+            .label-description {
                 width: 80.4px;
                 height: 16.5px;
                 font-family: Arial;
@@ -118,24 +95,14 @@
                 letter-spacing: normal;
                 text-align: left;
                 color: #373d40;
-                
             }
 
-            .field-input {
-                display: inline-block;
+            .input-name {
                 width: 380.9px;
-                height: 50px;
+                height: 40px;
                 border-radius: 5.3px;
                 background-color: rgba(245, 248, 249, 0.3);
                 border: solid 1px #cad7dd;
-                margin-left: 80px;
-                margin-bottom: 30px;
-
-                .oval {
-                    width: 52.9px;
-                    height: 53px;
-                    background-color: #f5f8f9;
-                }
             }
         }
     }

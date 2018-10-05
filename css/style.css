@@ -61,22 +61,7 @@
       height: 892px;
       border-radius: 0 42.5px 42.5px 0;
       background-color: #ffffff; }
-      .hover-Interactions .Rectangle-8 .form-section .form-details {
-        padding-top: 100px;
-        padding-left: 40px; }
-      .hover-Interactions .Rectangle-8 .form-section .row:after {
-        content: "";
-        display: table;
-        clear: both; }
-      .hover-Interactions .Rectangle-8 .form-section .desc-col {
-        float: left;
-        width: 25%;
-        margin-top: 6px; }
-      .hover-Interactions .Rectangle-8 .form-section .field-col {
-        float: left;
-        width: 75%;
-        margin-top: 6px; }
-      .hover-Interactions .Rectangle-8 .form-section .label-desc {
+      .hover-Interactions .Rectangle-8 .form-section .label-description {
         width: 80.4px;
         height: 16.5px;
         font-family: Arial;
@@ -88,18 +73,11 @@
         letter-spacing: normal;
         text-align: left;
         color: #373d40; }
-      .hover-Interactions .Rectangle-8 .form-section .field-input {
-        display: inline-block;
+      .hover-Interactions .Rectangle-8 .form-section .input-name {
         width: 380.9px;
-        height: 50px;
+        height: 40px;
         border-radius: 5.3px;
         background-color: rgba(245, 248, 249, 0.3);
-        border: solid 1px #cad7dd;
-        margin-left: 80px;
-        margin-bottom: 30px; }
-        .hover-Interactions .Rectangle-8 .form-section .field-input .oval {
-          width: 52.9px;
-          height: 53px;
-          background-color: #f5f8f9; }
+        border: solid 1px #cad7dd; }
 
 /*# sourceMappingURL=style.css.map */
