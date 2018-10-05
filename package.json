@@ -1,0 +1,19 @@
+{
+  "name": "techchallenge",
+  "version": "1.0.0",
+  "description": "Platfor45 Front end tech challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sMiter911/platform45_frontend_Challenge.git"
+  },
+  "author": "Wandu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sMiter911/platform45_frontend_Challenge/issues"
+  },
+  "homepage": "https://github.com/sMiter911/platform45_frontend_Challenge#readme"
+}
