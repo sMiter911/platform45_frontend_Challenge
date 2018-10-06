@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sMiter911/platform45_frontend_Challenge/issues"
   },
-  "homepage": "https://github.com/sMiter911/platform45_frontend_Challenge#readme"
+  "homepage": "https://github.com/sMiter911/platform45_frontend_Challenge#readme",
+  "dependencies": {
+    "bootstrap": "^4.1.3"
+  }
 }

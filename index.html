@@ -12,7 +12,7 @@
 <body>
     <div class="hover-Interactions">
         <div class="Rectangle-8">
-            <div class="avatar-section">
+            <div class="avatar-section" style="box-shadow:-12px 3px 69px -5px rgba(0,0,0,0.75);">
                 <span class="page-1">
                     <img class="avatar" src="./assets/page-1.png" alt="avatar" srcset="./assets/page-1@2x.png 2x, page-1@3x.png 3x">
                     <h1 class="Front-end-challenge">Front-end Challenge!</h1>
@@ -20,13 +20,40 @@
                     <img src="./assets/group-3.svg" class="Group-3">
                 </span>
             </div>
-            <div class="form-section">
-                <form>
-                    <label for="name" class="label-description">Name</label>
-                    <input id="firstName" type="text" class="input-name">
-                    <br>
-                    <label for="lastName" class="label-description">Surname</label>
-                    <input id="lastName" type="text" class="input-section">
+            <div class="form-section" style="box-shadow: 16px 2px 69px -5px rgba(0,0,0,0.75);">
+                <form id="reg-form" style="padding-top: 50px;">
+                    <div>
+                        <label for="reg-name">Name</label>
+                        <input type="text" name="reg-name" id="reg-name">
+                    </div>
+                    <div style="padding-top: 30px; padding-bottom: 30px;">
+                        <label for="reg-date">Gender</label>
+                        <a xlink:href="#" target="_parent">
+                            <img src="./assets/male.svg" type="image/svg+xml">
+                        </a>
+                        <span class="gender-label">Male</span>
+                        <a xlink:href="#" target="_parent">
+                            <img style="padding-left: 60px" src="./assets/female.svg" type="image/svg+xml">
+                        </a>
+                        <span class="gender-label">Female</span>
+                    </div>
+                    <div>
+                        <label for="reg-date">Date of Birth</label>
+                        <input type="text" name="reg-name" id="reg-date">
+                    </div>
+                    <div>
+                        <label for="reg-email">Email</label>
+                        <input type="email" name="reg-email" id="reg-email">
+                    </div>
+                    <div>
+                        <label for="reg-date">Mobile</label>
+                        <input type="text" name="reg-mobile" id="reg-mobile">
+                    </div>
+                    <div>
+                        <label for="reg-ID">Customer ID</label>
+                        <input type="text" name="reg-ID" id="reg-ID">
+                    </div>
+
                 </form>
             </div>
         </div>
