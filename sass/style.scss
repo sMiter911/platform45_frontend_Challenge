@@ -168,6 +168,9 @@
                 border-radius: 5.3px;
                 background-color: rgba(245, 248, 249, 0.3);
                 border: solid 1px #cad7dd;
+                color: #cad7dd;
+                font-family: Arial;
+                font-size: 18px;
             }
 
             ::placeholder {
@@ -189,6 +192,43 @@
                 text-align: left;
                 color: #b1bfcd;
             }
+
+            .button-wrap {
+                padding-left: 230PX;
+
+                .btn-cancel {
+                    width: 158.7px;
+                    height: 53px;
+                    border-radius: 5.3px;
+                    background-color: #cad7dd;
+                    font-family: Arial;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #373d40;
+                }
+
+                .btn-save {
+                    width: 158.7px;
+                    height: 53px;
+                    border-radius: 5.3px;
+                    background-color: #49c8a8;
+                    font-family: Arial;
+                    font-size: 16px;
+                    font-weight: normal;
+                    font-style: normal;
+                    font-stretch: normal;
+                    line-height: normal;
+                    letter-spacing: normal;
+                    text-align: center;
+                    color: #ffffff;
+                }
+            }
+
         }
     }
 }
