@@ -56,11 +56,58 @@
           padding-right: 165px;
           padding-top: 50px;
           padding-bottom: 0px; }
+      .hover-Interactions .Rectangle-8 .avatar-section .panel-wrap {
+        position: absolute;
+        top: 30px;
+        bottom: 0;
+        left: 0;
+        width: 28em;
+        transform: translateX(100%);
+        transition: left .3s ease-in-out; }
+      .hover-Interactions .Rectangle-8 .avatar-section .panel:target {
+        left: 0; }
+      .hover-Interactions .Rectangle-8 .avatar-section .panel {
+        width: 583px;
+        height: 862px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        overflow: auto;
+        padding: 1em;
+        border-radius: 0 42.5px 42.5px 0;
+        background: #ff9200; }
+        .hover-Interactions .Rectangle-8 .avatar-section .panel .my-world-today {
+          width: 263px;
+          height: 43px;
+          font-family: Arial;
+          font-size: 25px;
+          font-weight: bold;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: normal;
+          letter-spacing: normal;
+          text-align: left;
+          color: #383838; }
+        .hover-Interactions .Rectangle-8 .avatar-section .panel .Pellentesque-habitan {
+          height: 303.9px;
+          font-family: Arial;
+          font-size: 18px;
+          font-weight: normal;
+          font-style: normal;
+          font-stretch: normal;
+          line-height: 1.53;
+          letter-spacing: normal;
+          text-align: left;
+          color: #383838; }
     .hover-Interactions .Rectangle-8 .form-section {
       width: 583px;
       height: 892px;
       border-radius: 0 42.5px 42.5px 0;
       background-color: #ffffff; }
+      .hover-Interactions .Rectangle-8 .form-section img {
+        padding-top: 20px; }
       .hover-Interactions .Rectangle-8 .form-section label {
         float: left;
         width: 150px;

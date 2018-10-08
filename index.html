@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Platform45</title>
     <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/script.js"></script>
 </head>
 
 <body>
@@ -17,8 +18,23 @@
                     <img class="avatar" src="./assets/page-1.png" alt="avatar" srcset="./assets/page-1@2x.png 2x, page-1@3x.png 3x">
                     <h1 class="Front-end-challenge">Front-end Challenge!</h1>
                     <p class="description">This is a design that you will need to code up and impress us.</p>
-                    <img src="./assets/group-3.svg" class="Group-3">
+                    <a href="#"><img src="./assets/group-3.svg" class="Group-3" id="arrow-btn"></a>
                 </span>
+
+                <div class="panel-wrap">
+                    <div class="panel">
+                        <h1 class="my-world-today" style="padding-top:120px; padding-left:40px">My World today</h1>
+                        <p class="Pellentesque-habitan" style="padding-left:40px">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis
+                            egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. <strong style="text-decoration:underline">View
+                            all days</strong> eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris
+                            placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat
+                            wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget
+                            tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non
+                            enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus,
+                            tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat</p>
+                    </div>
+                </div>
+
             </div>
             <div class="form-section" style="box-shadow: 16px 2px 69px -5px rgba(0,0,0,0.75);">
                 <form id="reg-form" style="padding-top: 50px;">
@@ -52,6 +68,15 @@
                     <div>
                         <label for="reg-ID">Customer ID</label>
                         <input type="text" name="reg-ID" id="reg-ID">
+                    </div>
+                    <div style="padding-top: 30px; padding-bottom: 30px;">
+                        <label for="reg-date">Membership</label>
+                        <div class="selection">
+                            <a xlink:href="#" target="_parent">
+                                <img src="./assets/membership-light.png" type="image/svg+xml">
+                            </a>
+                            <span class="gender-label">Classic</span>
+                        </div>
                     </div>
 
                 </form>
